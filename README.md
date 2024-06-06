@@ -1,2 +1,3 @@
-# excalidraw-bundles
-Excalidraw pre-bundled with React
+# excalidraw-builds
+
+Excalidraw pre-bundled with React.
