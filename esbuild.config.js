@@ -35,10 +35,6 @@ await esbuild.build({
   format: 'esm',
   define: {
     'process.env.IS_PREACT': 'false',
-    /* We don't need this because we are statically bundling everything but just to be safe
-       against future version upgrades... */
-    'window.EXCALIDRAW_ASSET_PATH':
-      '"/node_modules/@prairielearn/excalidraw/dist/excalidraw-dist/"',
   },
   plugins: [
     JSONLoader,
