@@ -34,7 +34,7 @@ jobs:
           # to update `yarn.lock`:  https://github.com/changesets/action/issues/170
           version: yarn version
           # This invokes the `release` script in `package.json`, which will build
-          # all the packages and then invoke `changeset publish`.
+          # the packages and then invoke `changeset publish`.
           publish: yarn release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
