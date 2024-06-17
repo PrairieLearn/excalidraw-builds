@@ -1,0 +1,19 @@
+{
+  "name": "@prairielearn/excalidraw-builds",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Excalidraw bundled with React",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": ["dist"],
+  "repository": "git@github.com:PrairieLearn/excalidraw-builds.git",
+  "scripts": {
+    "build": "node esbuild.config.js"
+  },
+  "devDependencies": {
+    "@excalidraw/excalidraw": "0.17.1-2f9526d",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "esbuild": "^0.21.3"
+  }
+}
